@@ -1,0 +1,23 @@
+{
+  "name": "influx-appmetrics",
+  "version": "1.0.0",
+  "description": "Simple monitoring with appmetrics and sent to influxdb.",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rjforbes@github.com/rjforbes/influx-appmetrics.git"
+  },
+  "author": "RJ Forbes <ronforbes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjforbes/influx-appmetrics/issues"
+  },
+  "homepage": "https://github.com/rjforbes/influx-appmetrics#readme",
+  "dependencies": {
+    "appmetrics": "^5.1.1",
+    "influx": "^5.5.1"
+  }
+}
