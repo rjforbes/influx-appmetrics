@@ -1,7 +1,8 @@
 const appmetrics = require('appmetrics');
 const Influx = require('influx');
 
-function startMonitoring(config){
+export const name = 'monitor';
+export function startMonitoring(config){
 
     console.log('Connecting to InfluxDB.');
   
@@ -70,4 +71,3 @@ function startMonitoring(config){
     console.log('Monitoring initialized.');
 }
 
-module.exports = startMonitoring;
