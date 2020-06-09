@@ -1,7 +1,7 @@
 {
   "name": "influx-appmetrics",
-  "version": "1.0.2",
-  "description": "Simple monitoring with appmetrics and sent to influxdb.",
+  "version": "1.0.5",
+  "description": "Send simple monitoring with appmetrics to influxdb.",
   "main": "monitor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

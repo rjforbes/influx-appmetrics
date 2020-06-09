@@ -1,7 +1,7 @@
 # influx-appmetrics
-Modular integration of influxdb to store appmetrics data for monitoring.
+####Send simple monitoring with appmetrics to influxdb.
 
-This monitors CPU and Memory for the node application it is included in and sends the results to influx.  Set the config and start monitoring.  The influx database must already be created.
+This monitors CPU and Memory for the node application it is included in and sends the results to influxdb.  Set the config and start monitoring.  The influx database must already be created.
 
 This was created to pull this data into Grafana for monitoring.
 
