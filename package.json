@@ -1,6 +1,6 @@
 {
   "name": "influx-appmetrics",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Send simple monitoring with appmetrics to influxdb.",
   "main": "monitor.js",
   "scripts": {

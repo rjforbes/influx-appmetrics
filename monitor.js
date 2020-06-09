@@ -1,5 +1,6 @@
 const appmetrics = require('appmetrics');
 const Influx = require('influx');
+const os = require('os');
 
 function startMonitoring(config){
 
